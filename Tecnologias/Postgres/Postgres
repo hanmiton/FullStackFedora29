@@ -1,0 +1,7 @@
+Docker Postgres image
+	docker run --name postgresCompufacil -e POSTGRES_PASSWORD=asinfo2680$ -d -p 5423:5432 postgres
+	sudo docker exec -it 9b44b19f42ed bash
+	psql -U postgres
+		create database Compufacil
+	
+

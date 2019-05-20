@@ -1,0 +1,10 @@
+DockerIntegration
+	ctrl+shift+s
+		Docker integration plugin.
+	Settings/Preferences dialog (Ctrl+Alt+S), click Docker under Build, Execution, Deployment.
+		add Build, Exceution , Deployment
+			Select the top level node in the Project tool window, open the File menu, point to New and click Directory.
+
+			Enter the directory name docker-dir and click OK.
+
+			This directory will be used for the Dockerfile and WAR artifact.
