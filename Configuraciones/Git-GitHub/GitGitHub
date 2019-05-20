@@ -8,4 +8,8 @@ Global Configuration
 GitHub SSh Conecction
 	ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
+	xclip -sel clip < ~/.ssh/id_rsa.pub
+
+	GITHUB
+		Settings->ssh->add ssh key
 	

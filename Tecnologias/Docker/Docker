@@ -1,0 +1,30 @@
+Cliente
+Daemon
+Contenedores
+	Pieza fundamental docker
+	Agrupacion Procesos
+	Ejecuta procesos de forma nativa Universo como contenedor define
+	Solo comparten el kernel de linux nativo
+	No son maquinas virtuales
+Comandos
+	docker ps
+		estado de los procesos
+	docker ps -a
+		muestra todos los procesos contenedores exited
+		Containter ID
+			es unico
+	docker inspect id_contaniner
+		data del contenedor
+	docker inspect -f '{{json.Config.Env}}' codescending_lamport
+		variables entorno contenedor
+	docker rename nombre_contenedor nombre_update
+		actualizar nombre
+	docker log id_container
+		log del contenedor
+	docker rm id_contenedor
+		eliminar contenedores
+	docker ps -aq
+		id de containers
+	docker rm $(docker ps -aq)
+		elimina todo los contenedores
+	

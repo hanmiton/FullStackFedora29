@@ -1,0 +1,6 @@
+git init
+git status
+git add .
+git commit -m "message"
+git remote add origin git@github.com:username/reporsitory
+git push origin master
