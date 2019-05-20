@@ -27,4 +27,18 @@ Comandos
 		id de containers
 	docker rm $(docker ps -aq)
 		elimina todo los contenedores
-	
+	docker ps -a
+		up
+			se encuentra levantado el contenedor
+		command
+			comando que se ejectua en la maquina docker
+		-it
+			comand se ejectura y de forma interactiva 
+docker linux
+	ls -lac
+		sistema de archivos 
+	uname -a
+		ver linux
+	cat /etc/lsb-realease
+		para poder ver la data linux
+	exit salir del linux
