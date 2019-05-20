@@ -1,0 +1,11 @@
+Global Configuration
+	git config --global user.name "sampleuser"
+
+	git config --global user.email "sampleuser@example.com"
+
+	git config --list
+
+GitHub SSh Conecction
+	ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+
+	
