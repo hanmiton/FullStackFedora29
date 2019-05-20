@@ -1,0 +1,18 @@
+intellij
+	ctrl+n navigate/class
+	ctrl+shift+n navigate/file
+	ctrl+alt+b go to implementacion
+	alt+flecha change tab code
+	ctrl+alt+s settings
+	alt+up change method
+	alt+down chage next method
+	alt+shift+click put diferente part to edit
+	ctrl+w select more and more
+	ctrl+{ move to {
+	ctrl+} move to }
+	ctrl+shift+{ select to {
+	ctrl+shift+} select to }
+	ctrl+space to compelte code 
+	ctrl+shift+alt+7 find usage
+	ctrl+q documentation
+	
