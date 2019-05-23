@@ -1,0 +1,1 @@
+pg_restore -h localhost -p 5436 -U postgres -d %bdd% -v "%ubicacion%"
