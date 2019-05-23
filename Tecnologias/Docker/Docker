@@ -42,3 +42,47 @@ docker linux
 	cat /etc/lsb-realease
 		para poder ver la data linux
 	exit salir del linux
+docker Ubuntu
+	sudo docker run ubuntu
+	sudo docker run ubuntu tail -f /dev/null
+	sudo docker exec -it id_contenedor
+		cuando un contenedor esta corriendo se ejecutra exec 
+	ps -fea
+		PID 1 siemrpe va ser el comando ejecutado por el contenedor proceso root cuanto esto hace exited el contenedor se va apagar
+Docker
+	docker kill 9a3c4ab4e4fb
+	docker rm -f 9a3c4ab4e4fb
+Docker
+	docker run --detach
+		-d quita el proceso y lo deja correindo 
+
+Servidor web NGINX
+	sudo docker run -d --name server nginx
+	Estan aislados de la maquina host
+		hasta networking
+		contenedor tenga puerto abierto no implica que ese puerto este abierto en la maquina host
+	sudo docker run -d --name server -p 8080:80 nginx
+		-p publish 
+	(Tarea Levantar Servidor Web Nginx Reactjs DIGITAL OCEAN)
+	(Tarea levantar servidor wildfly purto 5020) con docker DIGITAL OCEAN)
+	Solo se puede binding un solo puerto de la maquina host al contenedor
+Docker Bases Datos
+	docker run -d --name db mongo
+	docker logs db
+	docker exec -it db bash
+		Mongo
+			mongo
+				use platzi
+					creacion base de datos
+				db.users.insert({"name": "Guido"})
+					insertar data dentro del a base qeu se esta usando
+				db.users.find()
+					buscamso todos los usuarios
+	Montar un sistema de archivo
+		como montar un archivo linux externo
+Docker 
+Montar volumnees
+	
+
+
+
