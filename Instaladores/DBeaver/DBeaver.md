@@ -4,6 +4,8 @@ Descomprimimos movemos to /opt
 	sudo mv dbeaver-ce-6.0.5-linux.gtk.x86_64 /opt/
 /opt/dbeaver-ce-6.0.5-linux.gtk.x86_64/dbeaver
 	ejecutamos dbeaver
+/home/chilli/.local/share/applications
+	dbeaver.desktop
 Configuracion de ejecutable
 	[Desktop Entry]
 	Name=DBeaver
