@@ -4,3 +4,8 @@ Database Navigator
 
 	Database Navigator
 		Database Navigator is the main view to work with the structure and content of databases
+
+	ctrl+intro
+		execute script database
+	f2
+		rename
