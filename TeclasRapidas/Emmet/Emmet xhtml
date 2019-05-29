@@ -1,0 +1,15 @@
+
+Teclas rapidas pra mejro rendimeinto emment
+	ctrl +, para selecionar un tag incrementando
+	ctrl + shift + 0 va selecionando interno y va decrementando
+	ctrl + alt + j emparejar con el que es el mismo
+	shift+ctrl+; remove tag
+	Select Next Item” (Shift+Ctrl+.)
+	Select Previous Item” (Shift+Ctrl+,)
+	ctrl+up increment nmer by 1
+	alt+down" decremente by 1 
+	ctrl + shift + / coment tag
+	ctrl +shift +y evaluate math expresion
+	ctrl + shift + [ togle tag close
+	ctrl + shift + ] togle tag expand
+

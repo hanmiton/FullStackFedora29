@@ -13,7 +13,7 @@ ingresamos a container conteine postgres
 		sudo docker cp as2\(10-04-2019\).backup a7f30476f632:/fiorentina.backup
 
 	script backup postgres database
-
+	pg_restore -h localhost -p 5432 -U postgres -d %bdd% -v "%ubicacion%"
 	script cambiar campos base postgres (trabajo)
 
 

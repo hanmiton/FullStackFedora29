@@ -3,5 +3,7 @@ Docker Postgres image
 	sudo docker exec -it 9b44b19f42ed bash
 	psql -U postgres
 		create database Compufacil
+
+
 	
 
