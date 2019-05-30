@@ -13,3 +13,5 @@ Database Navigator
 		open/close right panels
 	alt+up 
 		para poder regresar al anterior script sql ejecutado
+	ctrl+7 
+		podemos ver le valor de la variable selecionaoda de base de datos
