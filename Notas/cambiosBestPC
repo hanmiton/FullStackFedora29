@@ -1,0 +1,23 @@
+
+quitar a nivel de columan parametro producto x
+aumentar en detalle producto es cotizable
+solo mostrar tab cuando este activaod parametro
+indicador es a nivel de cabecera del prudcto si es cotizable
+
+validar caso en el que se manden por periodos las cotizaiocnes
+
+	ui-icon-cart
+
+rendered="#{consolidarSolicitudCompraBean.detalleSeleccionado.producto.indicadorEsCotizable}"
+
+condicon de pago debe ser seleccionable en caso del indicadro cotizable del producto este seleccionado
+
+
+<f:setPropertyActionListener target="#{consolidarSolicitudCompraBean.detalleSeleccionado}" value="#{_detalle}" />
+
+NUMERO_PERIODOS_SOLICITUD_COMPRA
+	4 periodos
+
+proceso cotizacion
+	map empresaDetallesolicitudCompra-idproducto
+

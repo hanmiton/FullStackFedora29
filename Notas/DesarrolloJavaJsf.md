@@ -4,3 +4,14 @@ datatables hide all column
 	nose puede usar a nivel de datalle tiene que se una propiedad del bean
 datatalbes hide valur of column
 	se puede usar un h:panelGroup para no mostrar dicho valor
+
+	requisicionEnProcesoDeCompra
+ERRORES OCN OBJETOS
+	dscp.getEmpresa().getProveedor().setCondicionPagoCotizable(dscp.getEmpresa().getProveedor().getCondicionPago());
+		modifica el mismo por que apunta al mismo objeto
+	solucion 
+		CondicionPago abc = new CondicionPago();
+					abc.setCodigo(dscp.getEmpresa().getProveedor().getCondicionPago().getCodigo());
+					abc.setNombre(dscp.getEmpresa().getProveedor().getCondicionPago().getNombre());
+					dscp.getEmpresa().getProveedor().setCondicionPagoCotizable(abc);
+		

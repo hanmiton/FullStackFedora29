@@ -87,3 +87,5 @@ Montar volumnees
 
 
 
+Docker Eliminar todos contenedores
+	docker rm $(docker ps -a -q)

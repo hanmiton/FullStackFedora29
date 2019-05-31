@@ -10,3 +10,8 @@ ctrl + f busqueda simple
 ctrl + ku transforma texto en mayusculas
 ctrl + kl transforma texto en miniscula
 ctrl + shift +f para remplazar texto
+f3 busqueda adelante de tecla adelantada
+shift + f3 busqueda previa
+
+controle paletag
+	ctrl + shift + p 

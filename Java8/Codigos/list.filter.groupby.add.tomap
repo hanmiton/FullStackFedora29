@@ -1,0 +1,4 @@
+lista filtrado agrupada y suma values convertido a mapa 	
+	Map<DetalleSolicitudCompra, BigDecimal> cantidadCotizandoMap = getSolicitudCompra().getListaDetalleSolicitudCompra().stream()
+				.filter(dsc -> dsc.getProducto().isIndicadorEsCotizable() && dsc.isIndicadorAgrupado()).collect(Collectors.groupingBy(
+						Function.identity(), Collectors.reducing(BigDecimal.ZERO, DetalleSolicitudCompra::getCantidadConsolidada, BigDecimal::add)));

@@ -6,6 +6,6 @@ Shell contaniner
 	Dentro de container
 		psql -U postgres
 
-	pg_restore -h localhost -p 5432 -U postgres -d fiorentina -v fiorentina.backup 
+	
 
 			
