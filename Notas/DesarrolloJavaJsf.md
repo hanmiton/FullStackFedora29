@@ -14,4 +14,7 @@ ERRORES OCN OBJETOS
 					abc.setCodigo(dscp.getEmpresa().getProveedor().getCondicionPago().getCodigo());
 					abc.setNombre(dscp.getEmpresa().getProveedor().getCondicionPago().getNombre());
 					dscp.getEmpresa().getProveedor().setCondicionPagoCotizable(abc);
-		
+
+siempre probar editar nuevo cancelar las opciones basicas
+
+</spacer> nos permite poner espacios en blanco dentro de primefaces

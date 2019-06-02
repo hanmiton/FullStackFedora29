@@ -21,3 +21,25 @@ NUMERO_PERIODOS_SOLICITUD_COMPRA
 proceso cotizacion
 	map empresaDetallesolicitudCompra-idproducto
 
+indicador_requision_proceoso_comrpa
+
+rendered="#{consolidarSolicitudCompraBean.requisicionEnProcesoDeCompra and consolidarSolicitudCompraBean.detalleSeleccionado.producto.indicadorEsCotizable)}"
+
+lazy en postgres consolidacion solicitud de compra
+
+Mover indicador a logistica
+
+aumentar un indicado ren detalle solicitud de comrpar para que se pueda chekear 
+
+-------------------------CAMBIOS BESTPC ------------------------
+cambio de indicador producto a tag logistica	X
+
+indicador producto bloqueado si es cotizable en la pantalla consolidacion solicitud compra x
+
+aumentar indicador cotizable detalle solicitud compra
+
+funcionalidad de bloqueo indicador es cotizable a nivel detalls solicitud compra
+
+	* PREGUTAR INDICADOR EN PEDIDO EN CONSOLIDACION SOLICITUD COMPRA?
+
+	* PREGUNTAR FUNCIONALIDAD CUANDO SEA DE PERIODOS DE 4 SEMANAS
