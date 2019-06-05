@@ -43,3 +43,12 @@ funcionalidad de bloqueo indicador es cotizable a nivel detalls solicitud compra
 	* PREGUTAR INDICADOR EN PEDIDO EN CONSOLIDACION SOLICITUD COMPRA?
 
 	* PREGUNTAR FUNCIONALIDAD CUANDO SEA DE PERIODOS DE 4 SEMANAS
+
+solo mostarr los detalles qeu no son cotizables en el dialog de panelListado
+
+Proponer
+	en pesta;a cotizaciones aumentar la condicion de pago que se va enviar
+
+Aumentar lbl_envair_correos	
+
+-***************Mejorar el envio de correo con plantilla*********************

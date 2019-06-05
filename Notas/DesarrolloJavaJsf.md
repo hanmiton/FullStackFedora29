@@ -18,3 +18,8 @@ ERRORES OCN OBJETOS
 siempre probar editar nuevo cancelar las opciones basicas
 
 </spacer> nos permite poner espacios en blanco dentro de primefaces
+
+The <f:setPropertyActionListener> works only inside a component implementing ActionSource interface, such as <h:commandButton>, <h:commandLink>. It's unclear what autocomplete component you're talking about, but the PrimeFaces <p:autoComplete> doesn't implement it.
+
+************MEJORAS***********
+Debe poder ser modificable la fecha de entrega
