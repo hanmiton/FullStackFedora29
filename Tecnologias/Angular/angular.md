@@ -42,4 +42,11 @@ Ciclo
 		en app.compnente.html
 			<router-outlet></router-outlet>
 				para agregar la funcionalidad de navegacion
+
 Href -: routerLink
+
+ToolTipPrimeNg
+
+<input type="text" pTooltip="Enter your username" tooltipPosition="top" tooltipEvent="focus">
+InputTextArea
+import {InputTextareaModule} from 'primeng/inputtextarea';
