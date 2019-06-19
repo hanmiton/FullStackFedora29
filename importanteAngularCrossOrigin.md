@@ -1,0 +1,1 @@
+modificar wildfly pra admitir cross origin 
